@@ -22,3 +22,7 @@ As an example, I used the public key from one of my wallets: 0x041fae2190d128f11
 ![Image alt](https://github.com/Gene-stack/public-key-to-address/blob/main/img3.jpg)
 
 As you can see in the screenshot, the script successfully calculated the wallet address from the public key.
+
+**For MacOS**
+
+Step 1. 
