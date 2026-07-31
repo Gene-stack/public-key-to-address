@@ -27,6 +27,6 @@ As you can see in the screenshot, the script successfully calculated the wallet 
 
 Step 1. Open a terminal
 
-
+![Image alt](https://github.com/Gene-stack/public-key-to-address/blob/main/img4.jpg)
 
 Step 2. Paste the command and press Enter 
