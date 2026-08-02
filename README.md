@@ -3,6 +3,8 @@ Convert an EVM public key to an address
 ---------------------------------------------------
 This library will calculate ethereum address from a public key.
 
+The script calculates an EVM address based on a public key: it takes the provided key, removes the service prefix 0x04, processes the resulting data using the Keccak-256 cryptographic hashing algorithm, discards the first 12 bytes of the resulting hash, and keeps the final 20 bytes, applying the EIP-55 algorithm—a checksum that converts individual letters of the address to uppercase based on the hash of the address itself to protect the user from errors caused by manual entry or copying.
+
 **For Windows**
 
 Step 1. Press Win+R
